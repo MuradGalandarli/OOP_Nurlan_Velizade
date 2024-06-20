@@ -1,0 +1,44 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="System.Diagnostics.PerformanceCounter" Version="7.0.0" />
+    <PackageReference Include="System.Drawing.Common" Version="7.0.0" />
+    <PackageReference Include="System.IO.FileSystem" Version="4.3.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Azure.Core">
+      <HintPath>..\..\LinqYou\LinqYou\bin\Debug\net7.0\Azure.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Azure.Identity">
+      <HintPath>..\..\LinqYou\LinqYou\bin\Debug\net7.0\Azure.Identity.dll</HintPath>
+    </Reference>
+    <Reference Include="Event">
+      <HintPath>C:\Users\LENOVO\source\repos\Event\Event\bin\Debug\net6.0\Event.dll</HintPath>
+    </Reference>
+    <Reference Include="Humanizer">
+      <HintPath>..\..\LinqYou\LinqYou\bin\Debug\net7.0\Humanizer.dll</HintPath>
+    </Reference>
+    <Reference Include="LinqYou">
+      <HintPath>..\..\LinqYou\LinqYou\bin\Debug\net7.0\LinqYou.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces">
+      <HintPath>..\..\LinqYou\LinqYou\bin\Debug\net7.0\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Data.SqlClient">
+      <HintPath>..\..\LinqYou\LinqYou\bin\Debug\net7.0\Microsoft.Data.SqlClient.dll</HintPath>
+    </Reference>
+    <Reference Include="UseDll">
+      <HintPath>..\..\UseDll\UseDll\bin\Debug\net7.0\UseDll.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
